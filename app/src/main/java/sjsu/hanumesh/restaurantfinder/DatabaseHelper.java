@@ -12,9 +12,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "Favorites.db";
     public static final String TABLE_NAME = "favorites_table";
 
-
-
-
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 2);
         SQLiteDatabase db = this.getWritableDatabase();
